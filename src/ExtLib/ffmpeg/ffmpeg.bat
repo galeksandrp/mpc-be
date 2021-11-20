@@ -29,7 +29,7 @@ ECHO ERROR: Please define MPCBE_MINGW and MPCBE_MSYS environment variable(s)
 EXIT /B
 
 :VarOk
-SET PATH=%MPCBE_MSYS%\bin;%MPCBE_MINGW%\bin;%PATH%
+SET PATH=%MPCBE_MSYS%\bin;%MPCBE_MINGW%\bin;%PATH%;%MPCBE_MSYS%\opt\bin;%MPCBE_MSYS%\usr\bin
 
 SET "BUILDTYPE=build"
 

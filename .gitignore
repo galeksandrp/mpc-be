@@ -1,0 +1,40 @@
+
+# /
+/*.suo
+/*.sdf
+/*.opensdf
+/.vs
+# /environments.bat
+
+# /contrib/
+/contrib/signinfo.txt
+
+# /include/
+/include/Version_rev.h
+
+# /src/ExtLib/ffmpeg/
+/src/ExtLib/ffmpeg/obj
+/src/ExtLib/ffmpeg/*.user
+
+# /src/apps/MPCBEShellExt/
+/src/apps/MPCBEShellExt/dlldata.c
+/src/apps/MPCBEShellExt/MPCBEShellExt_i.c
+/src/apps/MPCBEShellExt/MPCBEShellExt_i.h
+/src/apps/MPCBEShellExt/MPCBEShellExt_p.c
+
+# /src/apps/mpciconlib/
+/src/apps/mpciconlib/mpciconlib.vcxproj.user
+
+# /src/apps/mplayerc/
+/src/apps/mplayerc/mplayerc.aps
+/src/apps/mplayerc/*.user
+
+# /src/apps/mplayerc/res/
+/src/apps/mplayerc/res/mpc-be.exe.manifest
+
+# custom
+/bin
+/lib/libgcc.a
+/lib/libmingwex.a
+/lib64/libgcc.a
+/lib64/libmingwex.a
